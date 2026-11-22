@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,70 +10,73 @@
 <body>
 
     <header>
+        <h1>My Personal Profile</h1>
         <nav>
-            <h2>Kundan Kumar</h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section id="home" class="hero">
-        <img src="profile.jpg" alt="Profile Photo">
-        <h1>Hello, I'm Kundan Kumar</h1>
-        <h3>Web Developer | Software Engineer</h3>
-        <p>Welcome to my personal profile webpage!</p>
-        <button onclick="showMessage()">Hire Me</button>
+    <section class="profile">
+        <img src="https://via.placeholder.com/150"
+             alt="Profile Picture">
+
+        <h2>Kundan Kumar</h2>
+        <p>Web Developer | Frontend Developer</p>
+        <button onclick="showMessage()">Know More</button>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
         <p>
-            I am Kundan Kumar, a B.Tech Computer Science graduate.
-            I am passionate about Full Stack Development and
-            Software Engineering. I enjoy learning new technologies
-            and creating web applications.
+            Hello! I am Kundan Kumar. I am a B.Tech Computer
+            Science graduate from Bharati Vidyapeeth College
+            of Engineering, Pune.
+
+            I am passionate about Web Development,
+            Software Engineering and Problem Solving.
         </p>
     </section>
 
     <section id="skills">
         <h2>My Skills</h2>
-        <div class="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React.js</span>
-            <span>Node.js</span>
-            <span>Java</span>
-            <span>SQL</span>
-        </div>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL</li>
+        </ul>
     </section>
 
     <section id="projects">
         <h2>My Projects</h2>
+
         <div class="project">
             <h3>AutoDB AI</h3>
-            <p>Full Stack Web Application using React and Node.js.</p>
+            <p>Full Stack Web Application using React,
+            TypeScript and Node.js.</p>
         </div>
 
         <div class="project">
             <h3>HealthGuard AI</h3>
-            <p>Disease Prediction using Machine Learning.</p>
+            <p>Disease Prediction Web Application using
+            Python, Machine Learning and Streamlit.</p>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: your-email@gmail.com</p>
-        <p>
-            <a href="https://github.com/" target="_blank">GitHub</a>
-            |
-            <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
-        </p>
+        <p>Email: kundan@example.com</p>
+        <p>Location: Pune, Maharashtra</p>
+        <a href="https://www.linkedin.com/" target="_blank">
+            LinkedIn Profile
+        </a>
     </section>
 
     <footer>
